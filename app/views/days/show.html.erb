@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Ampersand:</strong>
+  <%= @day.ampersand %>
+</p>
+
+<p>
+  <strong>Weekday:</strong>
+  <%= @day.weekday %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @day.date %>
+</p>
+
+<p>
+  <strong>Month:</strong>
+  <%= @day.month %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @day.year %>
+</p>
+
+<%= link_to 'Edit', edit_day_path(@day) %> |
+<%= link_to 'Back', days_path %>
