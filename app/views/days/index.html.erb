@@ -1,17 +1,24 @@
-<div class="logo">three-hundred and sixty five</div>
+<!-- <div class="toplinks"><a href="/about">About</a></div>
+<div class="toplinks"><a href="/contact">Contact</a></div> -->
+<!-- links are not actual links to other pages just a pop up (javascript)-->
+
+
+<div class="logo">three-hundred and sixty five</div><br>
+<br>
 <hr class="rule">
-<div class="day1">&</div>
-<% daysoftheweek = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'] %>
-<% daysoftheweek.each {|day| day}%>
-<div class="dayoftheweek">FRIDAY</div>
-<div class="date">24</div>
-<div class="monyear"><%= Date.parse(Date.today.to_s).strftime('%B, %Y') %></div>
 
+<% now = Date.today %>
+<% jan_1_1 = Date.new(2015,1,1) %>
+<% dayes = (jan_1_1..now).to_a %>
+<% sorted_dayes = dayes.sort {|x,y| y <=> x }%>
 
-
-
-
-
+<% sorted_dayes.each do |single_day| %>
+  <div class="day1">&</div>
+  <div class="dayoftheweek"><%= single_day.strftime('%A').upcase %></div>
+  <div class="date"><%= single_day.strftime('%-d') %></div>
+  <div class="monyear"><%= single_day.strftime('%B, %Y') %></div><br>
+  <hr width="50%">
+<% end %>
 
 
 
