@@ -2,6 +2,34 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+a {
+  color: #cccccc;
+  text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+  color: #cccccc;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #00FF00;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #cccccc;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
+
 .logo {
   font-family: 'Quicksand', sans-serif;
   text-align: center;
@@ -40,6 +68,7 @@
  /* CORNER */
 #corner{
 position: absolute;
+margin: auto;
 font-size:90%;
 top: 4px;
 left: 8px;
@@ -51,7 +80,6 @@ width: 100%;
 #contact{
 display: none;
 position: absolute;
-margin: auto;
 text-align:left;
 font-size:90%;
 top: 32px;
