@@ -37,6 +37,29 @@
   padding-top: 50px;
 }
 
-.toplinks {
-  
-}
+ /* CORNER */
+#corner{
+position: absolute;
+font-size:90%;
+top: 4px;
+left:8px;}
+
+    /* CONTACT */
+#contact{
+display: none;
+position: absolute;
+text-align:left;
+font-size:90%;
+top: 32px;
+left:8px;}
+
+    /* ABOUT */
+#descr{
+display: none;
+position: absolute;
+text-align:left;
+font-size:90%;
+width: 275px;
+top: 55px;
+left:8px;
+color:#cccccc;}

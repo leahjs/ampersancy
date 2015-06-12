@@ -1,6 +1,8 @@
 <!-- <div class="toplinks"><a href="/about">About</a></div>
 <div class="toplinks"><a href="/contact">Contact</a></div> -->
-<!-- links are not actual links to other pages just a pop up (javascript)-->
+<!-- links are not actual links to other pages just a pop up (javascript)
+search function
+-->
 
 
 <div class="logo">three-hundred and sixty five</div><br>
@@ -21,6 +23,38 @@
 <% end %>
 
 
+<div id="corner">
+<!--   <a href="http://ampersandampersand.tumblr.com/rss">Subscribe RSS</a><span class="textgap">|</span>
+  <a href="/archive">Archive</a><span class="textgap">|</span> -->
+
+  <a href="javascript:toggleLayer('contact');">Contact</a><span class="textgap">|</span>
+  <a href="javascript:toggleLayer('descr');">About</a>
+
+</div>
+
+<div id="descr">This is a blog celebrating the beauty of the ampersand, one is posted each day. (Click the ampersand to go to the foundry's page for the font or simply mouse-over to view the name).<BR>
+—The body text is in Today Sans.<BR><BR>
+Please feel free to contact us if you have any questions or suggestions!
+</div>
+
+<div id="contact"><script language="JavaScript" type="text/javascript"> 
+
+
+<script type="text/javascript">
+function toggleLayer(whichLayer) {
+  var elem, vis;
+  if(document.getElementById)
+    elem = document.getElementById(whichLayer);
+  else if(document.all)
+      elem = document.all[whichLayer];
+  else if(document.layers)
+    elem = document.layers[whichLayer];
+  vis = elem.style;
+  if(vis.display==''&&elem.offsetWidth!=undefined&&elem.offsetHeight!=undefined)
+    vis.display = (elem.offsetWidth!=0&&elem.offsetHeight!=0)?'block':'none';
+  vis.display = (vis.display==''||vis.display=='block')?'none':'block';
+}
+</script>
 
 
 
@@ -28,9 +62,7 @@
 
 
 
-
-
-<p id="notice"><%= notice %></p>
+<!-- <p id="notice"><%#= notice %></p>
 
 <div><h1>Listing Days</h1></div>
 
@@ -47,21 +79,21 @@
   </thead>
 
   <tbody>
-    <% @days.each do |day| %>
+    <#% @days.each do |day| %>
       <tr>
-        <td><%= day.ampersand %></td>
-        <td><%= day.weekday %></td>
-        <td><%= day.date %></td>
-        <td><%= day.month %></td>
-        <td><%= day.year %></td>
-        <td><%= link_to 'Show', day %></td>
-        <td><%= link_to 'Edit', edit_day_path(day) %></td>
-        <td><%= link_to 'Destroy', day, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><#%= day.ampersand %></td>
+        <td><#%= day.weekday %></td>
+        <td><#%= day.date %></td>
+        <td><#%= day.month %></td>
+        <td><#%= day.year %></td>
+        <td><#%= link_to 'Show', day %></td>
+        <td><#%= link_to 'Edit', edit_day_path(day) %></td>
+        <td><#%= link_to 'Destroy', day, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
-    <% end %>
+    <#% end %>
   </tbody>
 </table>
 
-<br>
+<br> -->
 
-<%= link_to 'New Day', new_day_path %>
+<%#= link_to 'New Day', new_day_path %>
