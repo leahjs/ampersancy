@@ -2,20 +2,35 @@
 <br>
 <hr class="rule">
 
-<% %>
+<!-- //////////////  ITERATING OVER THE FONTS   ///////////////// -->
 
+
+<%#%>
+<%#%>
+<%#%>
+<%# next if use regex for file end %>
+<%#arr = ['Conv_today-sans-serif-extra-light']%>
+  <%# arr.each do |font| %>
+
+<!-- <h1 style="color:blue">This is a Blue Heading</h1> -->
 <% now = Date.today %>
 <% jan_1_1 = Date.new(2015,1,1) %>
-<% dayes = (jan_1_1..now).to_a %>
+<% dayes = (jan_1_1..Date.new(2015,1,2)).to_a %>
 <% sorted_dayes = dayes.sort {|x,y| y <=> x }%>
 
 <% sorted_dayes.each do |single_day| %>
-  <div class="day1">&</div>
+ <% sorted_dayes.length.times do |eatime| %>
+    <% Day.load_fonts.each do |font| %>
+    <div class="day1" style="font-family:<%= font %>">&</div>
+  <% end %>
+
   <div class="dayoftheweek"><%= single_day.strftime('%A').upcase %></div>
   <div class="date"><%= single_day.strftime('%-d') %></div>
   <div class="monyear"><%= single_day.strftime('%B, %Y') %></div><br>
   <hr width="50%">
-<% end %>
+  <% end %>
+  <% end %>
+  <%# end %>
 
 <div id="corner">
 <!--   <a href="http://ampersandampersand.tumblr.com/rss">Subscribe RSS</a><span class="textgap">|</span>
