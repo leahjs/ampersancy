@@ -2,9 +2,6 @@
 <br>
 <hr class="rule">
 
-<!-- //////////////  ITERATING OVER THE FONTS   ///////////////// -->
-
-<!-- <h1 style="color:blue">This is a Blue Heading</h1> -->
 <% now = Date.today %>
 <% jan_1_1 = Date.new(2015,1,1) %>
 <% dayes = (jan_1_1..Date.new(2015,2,27)).to_a %>
@@ -13,10 +10,47 @@
 <% date_font_hash = dayes.zip(Day.load_fonts).to_h %>
 
 <% date_font_hash.each do |single_day, font| %>
+<div id="ampersandness" onclick="fontLink('http://google.com');" >
   <div class="day1" style="font-family:<%= font %>">&</div>
   <div class="dayoftheweek"><%= single_day.strftime('%A').upcase %></div>
   <div class="date"><%= single_day.strftime('%-d') %></div>
   <div class="monyear"><%= single_day.strftime('%B, %Y') %></div><br> 
+  </div>
   <hr width="50%">
 <% end %>
 
+<div id="corner">
+<!--   <a href="http://ampersandampersand.tumblr.com/rss">Subscribe RSS</a><span class="textgap">|</span>
+  <a href="/archive">Archive</a><span class="textgap">|</span> -->
+
+  <a href="javascript:toggleLayer('contact');">Contact</a><!-- <span class="textgap"> |</span> -->
+  <a href="javascript:toggleLayer('descr');">About</a>
+
+</div>
+
+<div id="descr">This is a blog celebrating the beauty of the ampersand, one is posted each day. (Click the ampersand to go to the foundry's page for the font or simply mouse-over to view the name).<BR>
+—The body text is in Today Sans.<BR><BR>
+Please feel free to contact us if you have any questions or suggestions!
+</div>
+
+<div id="contact">Email me: leahj.suter@gmail.com</div> 
+<script type="text/javascript">
+function toggleLayer(whichLayer) {
+  var elem, vis;
+  if(document.getElementById)
+    elem = document.getElementById(whichLayer);
+  else if(document.all)
+      elem = document.all[whichLayer];
+  else if(document.layers)
+    elem = document.layers[whichLayer];
+  vis = elem.style;
+  if(vis.display==''&&elem.offsetWidth!=undefined&&elem.offsetHeight!=undefined)
+    vis.display = (elem.offsetWidth!=0&&elem.offsetHeight!=0)?'block':'none';
+  vis.display = (vis.display==''||vis.display=='block')?'none':'block';
+}
+</script>
+
+<script type="text/javascript">
+    function fontLink(link){
+      window.location.href = link;}
+</script>
