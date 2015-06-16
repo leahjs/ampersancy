@@ -1,27 +1,18 @@
-<div class="logo">three-hundred and sixty five </div><br>
+<div class="logo">three-hundred and sixty five</div><br>
 <br>
 <hr class="rule">
 
 <!-- //////////////  ITERATING OVER THE FONTS   ///////////////// -->
 
-
-<%#%>
-<%#%>
-<%# next if use regex for file end %>
-<%#arr = ['Conv_today-sans-serif-extra-light']%>
-  <%# arr.each do |font| %>
-
 <!-- <h1 style="color:blue">This is a Blue Heading</h1> -->
 <% now = Date.today %>
 <% jan_1_1 = Date.new(2015,1,1) %>
-<% dayes = (jan_1_1..Date.new(2015,1,2)).to_a %>
-<% sorted_dayes = dayes.sort {|x,y| y <=> x }%>
+<% dayes = (jan_1_1..Date.new(2015,2,3)).to_a %>
+<% sorted_dayes = dayes.sort {|x,y| y <=> x } %>
 
-<% date_font_hash = sorted_dayes.zip(Day.load_fonts).to_h %>
+<% date_font_hash = dayes.zip(Day.load_fonts).to_h %>
 
-<%= date_font_hash %>
-
-<%= date_font_hash.each do |single_day, font| %>
+<% date_font_hash.each do |single_day, font| %>
   <div class="day1" style="font-family:<%= font %>">&</div>
   <div class="dayoftheweek"><%= single_day.strftime('%A').upcase %></div>
   <div class="date"><%= single_day.strftime('%-d') %></div>

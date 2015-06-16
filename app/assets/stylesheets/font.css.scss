@@ -1,0 +1,358 @@
+@font-face {
+  font-family: 'Conv_today-sans-serif-extra-light';
+  src: url('fonts/today-sans-serif-extra-light.eot');
+  src: local('☺'), url('fonts/today-sans-serif-extra-light.woff') format('woff'), 
+        url('fonts/today-sans-serif-extra-light.ttf') format('truetype'), 
+        url('fonts/today-sans-serif-extra-light.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'cabrito_norm_regular_normRgIt';
+    src: font-url('fonts/CabritoNormRegularItalic-webfont.eot');
+    src: font-url('fonts/CabritoNormRegularItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('fonts/CabritoNormRegularItalic-webfont.woff2') format('woff2'),
+         font-url('fonts/CabritoNormRegularItalic-webfont.woff') format('woff'),
+         font-url('fonts/CabritoNormRegularItalic-webfont.ttf') format('truetype'),
+         font-url('fonts/CabritoNormRegularItalic-webfont.svg#cabrito_norm_regular_normRgIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ames_romanbold';
+    src: url('fonts/AmesRoman-Bold-webfont.eot');
+    src: url('fonts/AmesRoman-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/AmesRoman-Bold-webfont.woff2') format('woff2'),
+         url('fonts/AmesRoman-Bold-webfont.woff') format('woff'),
+         url('fonts/AmesRoman-Bold-webfont.ttf') format('truetype'),
+         url('fonts/AmesRoman-Bold-webfont.svg#ames_romanbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aniversregular';
+    src: url('fonts/Anivers_Regular-webfont.eot');
+    src: url('fonts/Anivers_Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Anivers_Regular-webfont.woff2') format('woff2'),
+         url('fonts/Anivers_Regular-webfont.woff') format('woff'),
+         url('fonts/Anivers_Regular-webfont.ttf') format('truetype'),
+         url('fonts/Anivers_Regular-webfont.svg#aniversregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'calalight';
+    src: url('fonts/CalaLig-webfont.eot');
+    src: url('fonts/CalaLig-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/CalaLig-webfont.woff2') format('woff2'),
+         url('fonts/CalaLig-webfont.woff') format('woff'),
+         url('fonts/CalaLig-webfont.ttf') format('truetype'),
+         url('fonts/CalaLig-webfont.svg#calalight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'callunaregular';
+    src: url('fonts/Calluna-Regular-webfont.eot');
+    src: url('fonts/Calluna-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Calluna-Regular-webfont.woff2') format('woff2'),
+         url('fonts/Calluna-Regular-webfont.woff') format('woff'),
+         url('fonts/Calluna-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Calluna-Regular-webfont.svg#callunaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'capitalight';
+    src: url('fonts/CapitaLig-webfont.eot');
+    src: url('fonts/CapitaLig-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/CapitaLig-webfont.woff2') format('woff2'),
+         url('fonts/CapitaLig-webfont.woff') format('woff'),
+         url('fonts/CapitaLig-webfont.ttf') format('truetype'),
+         url('fonts/CapitaLig-webfont.svg#capitalight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cassiaextralight';
+    src: url('fonts/CassiaXLig-webfont.eot');
+    src: url('fonts/CassiaXLig-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/CassiaXLig-webfont.woff2') format('woff2'),
+         url('fonts/CassiaXLig-webfont.woff') format('woff'),
+         url('fonts/CassiaXLig-webfont.ttf') format('truetype'),
+         url('fonts/CassiaXLig-webfont.svg#cassiaextralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'civitalight';
+    src: url('fonts/CivitaLig-webfont.eot');
+    src: url('fonts/CivitaLig-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/CivitaLig-webfont.woff2') format('woff2'),
+         url('fonts/CivitaLig-webfont.woff') format('woff'),
+         url('fonts/CivitaLig-webfont.ttf') format('truetype'),
+         url('fonts/CivitaLig-webfont.svg#civitalight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'code_pro_light_demoregular';
+    src: url('fonts/Code_Pro_Light_Demo-webfont.eot');
+    src: url('fonts/Code_Pro_Light_Demo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Code_Pro_Light_Demo-webfont.woff2') format('woff2'),
+         url('fonts/Code_Pro_Light_Demo-webfont.woff') format('woff'),
+         url('fonts/Code_Pro_Light_Demo-webfont.ttf') format('truetype'),
+         url('fonts/Code_Pro_Light_Demo-webfont.svg#code_pro_light_demoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'code_pro_demoregular';
+    src: url('fonts/Code_Pro_Demo-webfont.eot');
+    src: url('fonts/Code_Pro_Demo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Code_Pro_Demo-webfont.woff2') format('woff2'),
+         url('fonts/Code_Pro_Demo-webfont.woff') format('woff'),
+         url('fonts/Code_Pro_Demo-webfont.ttf') format('truetype'),
+         url('fonts/Code_Pro_Demo-webfont.svg#code_pro_demoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cordalight';
+    src: url('fonts/CordaLig-webfont.eot');
+    src: url('fonts/CordaLig-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/CordaLig-webfont.woff2') format('woff2'),
+         url('fonts/CordaLig-webfont.woff') format('woff'),
+         url('fonts/CordaLig-webfont.ttf') format('truetype'),
+         url('fonts/CordaLig-webfont.svg#cordalight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'fertigo_proregular';
+    src: url('fonts/Fertigo_PRO-webfont.eot');
+    src: url('fonts/Fertigo_PRO-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Fertigo_PRO-webfont.woff2') format('woff2'),
+         url('fonts/Fertigo_PRO-webfont.woff') format('woff'),
+         url('fonts/Fertigo_PRO-webfont.ttf') format('truetype'),
+         url('fonts/Fertigo_PRO-webfont.svg#fertigo_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'galano_grotesque_alt_demobold';
+    src: url('fonts/galanogrotesquealtdemo-bold-webfont.eot');
+    src: url('fonts/galanogrotesquealtdemo-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/galanogrotesquealtdemo-bold-webfont.woff2') format('woff2'),
+         url('fonts/galanogrotesquealtdemo-bold-webfont.woff') format('woff'),
+         url('fonts/galanogrotesquealtdemo-bold-webfont.ttf') format('truetype'),
+         url('fonts/galanogrotesquealtdemo-bold-webfont.svg#galano_grotesque_alt_demobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'galano_grotesque_demobold';
+    src: url('fonts/galanogrotesquedemo-bold-webfont.eot');
+    src: url('fonts/galanogrotesquedemo-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/galanogrotesquedemo-bold-webfont.woff2') format('woff2'),
+         url('fonts/galanogrotesquedemo-bold-webfont.woff') format('woff'),
+         url('fonts/galanogrotesquedemo-bold-webfont.ttf') format('truetype'),
+         url('fonts/galanogrotesquedemo-bold-webfont.svg#galano_grotesque_demobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'geometria_lightlight';
+    src: url('fonts/Geometria-Light-webfont.eot');
+    src: url('fonts/Geometria-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Geometria-Light-webfont.woff2') format('woff2'),
+         url('fonts/Geometria-Light-webfont.woff') format('woff'),
+         url('fonts/Geometria-Light-webfont.ttf') format('truetype'),
+         url('fonts/Geometria-Light-webfont.svg#geometria_lightlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'geotica_threeregular';
+    src: url('fonts/Geotica_Three-webfont.eot');
+    src: url('fonts/Geotica_Three-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Geotica_Three-webfont.woff2') format('woff2'),
+         url('fonts/Geotica_Three-webfont.woff') format('woff'),
+         url('fonts/Geotica_Three-webfont.ttf') format('truetype'),
+         url('fonts/Geotica_Three-webfont.svg#geotica_threeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'globerbold_free';
+    src: url('fonts/Glober_Bold_Free-webfont.eot');
+    src: url('fonts/Glober_Bold_Free-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Glober_Bold_Free-webfont.woff2') format('woff2'),
+         url('fonts/Glober_Bold_Free-webfont.woff') format('woff'),
+         url('fonts/Glober_Bold_Free-webfont.ttf') format('truetype'),
+         url('fonts/Glober_Bold_Free-webfont.svg#globerbold_free') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'globerthin_free';
+    src: url('fonts/Glober_Thin_Free-webfont.eot');
+    src: url('fonts/Glober_Thin_Free-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Glober_Thin_Free-webfont.woff2') format('woff2'),
+         url('fonts/Glober_Thin_Free-webfont.woff') format('woff'),
+         url('fonts/Glober_Thin_Free-webfont.ttf') format('truetype'),
+         url('fonts/Glober_Thin_Free-webfont.svg#globerthin_free') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'linottesemibold';
+    src: url('Linotte-SemiBold-webfont.eot');
+    src: url('Linotte-SemiBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Linotte-SemiBold-webfont.woff2') format('woff2'),
+         url('Linotte-SemiBold-webfont.woff') format('woff'),
+         url('Linotte-SemiBold-webfont.ttf') format('truetype'),
+         url('Linotte-SemiBold-webfont.svg#linottesemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'lintelitalic';
+    src: url('Lintel_Italic-webfont.eot');
+    src: url('Lintel_Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Lintel_Italic-webfont.woff2') format('woff2'),
+         url('Lintel_Italic-webfont.woff') format('woff'),
+         url('Lintel_Italic-webfont.ttf') format('truetype'),
+         url('Lintel_Italic-webfont.svg#lintelitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'lintelregular';
+    src: url('Lintel_Reg-webfont.eot');
+    src: url('Lintel_Reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Lintel_Reg-webfont.woff2') format('woff2'),
+         url('Lintel_Reg-webfont.woff') format('woff'),
+         url('Lintel_Reg-webfont.ttf') format('truetype'),
+         url('Lintel_Reg-webfont.svg#lintelregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'lulo_cleanoutline_bold';
+    src: url('LuloCleanOutlineBold-webfont.eot');
+    src: url('LuloCleanOutlineBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('LuloCleanOutlineBold-webfont.woff2') format('woff2'),
+         url('LuloCleanOutlineBold-webfont.woff') format('woff'),
+         url('LuloCleanOutlineBold-webfont.ttf') format('truetype'),
+         url('LuloCleanOutlineBold-webfont.svg#lulo_cleanoutline_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mergelight';
+    src: url('merge_light-webfont.eot');
+    src: url('merge_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('merge_light-webfont.woff2') format('woff2'),
+         url('merge_light-webfont.woff') format('woff'),
+         url('merge_light-webfont.ttf') format('truetype'),
+         url('merge_light-webfont.svg#mergelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'museo_sans500';
+    src: url('MuseoSans_500-webfont.eot');
+    src: url('MuseoSans_500-webfont.eot?#iefix') format('embedded-opentype'),
+         url('MuseoSans_500-webfont.woff2') format('woff2'),
+         url('MuseoSans_500-webfont.woff') format('woff'),
+         url('MuseoSans_500-webfont.ttf') format('truetype'),
+         url('MuseoSans_500-webfont.svg#museo_sans500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'museo_slab500';
+    src: url('Museo_Slab_500_2-webfont.eot');
+    src: url('Museo_Slab_500_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Museo_Slab_500_2-webfont.woff2') format('woff2'),
+         url('Museo_Slab_500_2-webfont.woff') format('woff'),
+         url('Museo_Slab_500_2-webfont.ttf') format('truetype'),
+         url('Museo_Slab_500_2-webfont.svg#museo_slab500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nexa_boldregular';
+    src: url('Nexa_Free_Bold-webfont.eot');
+    src: url('Nexa_Free_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Nexa_Free_Bold-webfont.woff2') format('woff2'),
+         url('Nexa_Free_Bold-webfont.woff') format('woff'),
+         url('Nexa_Free_Bold-webfont.ttf') format('truetype'),
+         url('Nexa_Free_Bold-webfont.svg#nexa_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nexa_lightregular';
+    src: url('Nexa_Free_Light-webfont.eot');
+    src: url('Nexa_Free_Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Nexa_Free_Light-webfont.woff2') format('woff2'),
+         url('Nexa_Free_Light-webfont.woff') format('woff'),
+         url('Nexa_Free_Light-webfont.ttf') format('truetype'),
+         url('Nexa_Free_Light-webfont.svg#nexa_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
