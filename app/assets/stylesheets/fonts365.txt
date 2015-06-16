@@ -33,6 +33,30 @@
 'novecento_sans_widelight'
 'novecento_sans_widemedium'
 'novecento_sans_widenormal'
+'questa_granderegular'
+'questaregular'
+'questa_sansregular'
+'ristretto_proregular'
+'sanchezitalic'
+'sanchezregular'
+'sina-regularregular'
+'sofia_prolight'
+'Conv_BEBAS___'
+'Conv_BebasNeue'
+'Conv_BLANCH_CAPS_LIGHT'
+'Conv_COFFMilk'
+'Conv_Franchise-Bold'
+'Conv_Hagin Caps Thin'
+'Conv_Hoftype - Foro-ExtraLight'
+'Conv_Latinotype - Sanchez'
+'Conv_Lavanderia Delicate'
+'Conv_LeagueGothic-Regular'
+
+
+
+
+
+
 
 
 
