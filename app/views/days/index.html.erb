@@ -16,19 +16,10 @@
 <% jan_1_1 = Date.new(2015,1,1) %>
 <% dayes = (jan_1_1..Date.new(2015,1,2)).to_a %>
 <% sorted_dayes = dayes.sort {|x,y| y <=> x }%>
-<% Day.load_fonts.each do |font| %>
- <%= font%>
-  <% end %>
 
-<% arr = [5, 6]%>
-<% date_font_hash = {} %>
-  <% sorted_dayes.each do |single_day| %>
-<% arr.each do |font| %>
-    <% date_font_hash[single_day] ||= font unless date_font_hash[single_day] == font %>
-  <% end %>
-<% end %>
+<% date_font_hash = sorted_dayes.zip(Day.load_fonts).to_h %>
+
 <%= date_font_hash %>
-
 
 <%= date_font_hash.each do |single_day, font| %>
   <div class="day1" style="font-family:<%= font %>">&</div>
