@@ -10,7 +10,7 @@
 <% date_font_hash = dayes.zip(Day.load_fonts) %>
 
 <% date_font_hash.each do |single_day, font| %>
-<div id="ampersandness" onclick="fontLink('http://google.com');" >
+<div id="ampersandness" onclick="fontLink('http://github.com/leahjs');" >
   <div class="day1" style="font-family:<%= font %>">&</div>
   <div class="dayoftheweek"><%= single_day.strftime('%A').upcase %></div>
   <div class="date"><%= single_day.strftime('%-d') %></div>
