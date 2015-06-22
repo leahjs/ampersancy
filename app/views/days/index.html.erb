@@ -1,20 +1,13 @@
 <div class="logo">three-hundred and sixty five</div><br>
 <br>
-<hr class="rule">
+<div class="rule"></div>
 
-<% now = Date.today %>
-<% jan_1_1 = Date.new(2015,1,1) %>
-<% dayes = (jan_1_1..Date.new(2015,3,27)).to_a %>
-<% sorted_dayes = dayes.sort {|x,y| y <=> x } %>
-
-<% date_font_hash = dayes.zip(Day.load_fonts) %>
-
-<% date_font_hash.each do |single_day, font| %>
-<div id="ampersandness" onclick="fontLink('http://github.com/leahjs');" >
+<% Day.getting_dates.each do |single_day, font| %>
+  <div id="ampersandness" onclick="fontLink('http://github.com/leahjs');" >
   <div class="day1" style="font-family:<%= font %>">&</div>
   <div class="dayoftheweek"><%= single_day.strftime('%A').upcase %></div>
   <div class="date"><%= single_day.strftime('%-d') %></div>
   <div class="monyear"><%= single_day.strftime('%B, %Y') %></div><br> 
   </div>
-  <hr width="50%">
+<div class="rule"></div>
 <% end %>
