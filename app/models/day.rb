@@ -1,6 +1,5 @@
 class Day < ActiveRecord::Base
 
-
 # add fonts and ampersands to database when I find all 365 fonts
   def self.load_fonts
     font_of_day = []
