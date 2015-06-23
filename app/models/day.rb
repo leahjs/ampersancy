@@ -14,8 +14,8 @@ class Day < ActiveRecord::Base
   def self.getting_dates
     now = Date.today 
     jan_1_1 = Date.new(2015,1,1)
-    date_72 = Date.today - 72
-    dayes = (date_72..now).to_a 
+    date_70 = Date.today - 70
+    dayes = (date_70..now).to_a 
     sorted_dayes = dayes.sort {|x,y| y <=> x }
     date_font_hash = sorted_dayes.zip(Day.load_fonts)
   end
