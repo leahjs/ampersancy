@@ -17,7 +17,7 @@ class Day < ActiveRecord::Base
     date_72 = Date.today - 72
     dayes = (date_72..now).to_a 
     sorted_dayes = dayes.sort {|x,y| y <=> x }
-    date_font_hash = dayes.zip(Day.load_fonts)
+    date_font_hash = sorted_dayes.zip(Day.load_fonts)
   end
 end
 

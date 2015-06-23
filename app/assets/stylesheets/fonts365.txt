@@ -51,7 +51,6 @@
 'Conv_Latinotype - Sanchez'
 'Conv_Lavanderia Delicate'
 'Conv_LeagueGothic-Regular'
-'Conv_mensch-thin-wf'
 'Conv_merit4'
 'Conv_Mohave-Bold'
 'Conv_Mohave'
